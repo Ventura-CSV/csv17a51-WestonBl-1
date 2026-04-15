@@ -24,7 +24,7 @@ def is_injective(mapping: dict) -> bool:
     """Return True if f is one-to-one (no two inputs map to same output)."""
     # === TODO ===
     # Your code here
-    return len(mapping.values()) == len(set(mapping.values())
+    return len(mapping.values()) == len(set(mapping.values()))
     # === END TODO ===
 
 def is_surjective(mapping: dict, target: set) -> bool:
